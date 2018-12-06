@@ -1,0 +1,14 @@
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+    
+}
+
