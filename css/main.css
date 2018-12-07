@@ -1,3 +1,5 @@
+/** #1f202b background color**/
+/** #fa0075 pink **/
 .full-width {
     width: 1200px;
     margin: 0 auto;
@@ -10,5 +12,120 @@
     width: 400px;
     float: left;
     
+}
+/** HEADER **/
+header p {
+    margin-left: 30px;
+    font-size: 18px;
+}
+nav {
+    float: right;
+    padding: 10px auto;
+    margin-right: 10px;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    padding-left: 80px;
+    font-size: 18px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+header {
+    height: 700px;
+    background: url('../img/hero-image.png');
+    background-size: cover;
+    margin: 0 auto;
+    color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
+}
+.navigation {
+    overflow: hidden;
+    background-color: #1f202b;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+  }
+  h1 {
+      padding-top: 200px;
+      padding-left: 100px;
+      font-size: 72px;
+      font-family: 'Source Code Pro', monospace;
+  }
+  h1 span {
+      color: #fa0075;
+  }
+
+
+/** PORTFOLIO **/
+
+#portfolio h3 {
+    text-align: center;
+    color: #fa0075;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 20px;
+}
+#jubilee {
+    clear: both;
+}
+.about {
+    clear: both;
+}
+
+#portfolio {
+    background-color: #1f202b;
+    border: 1px solid #1f202b; 
+}
+#portfolio p {
+    color: whitesmoke;
+}
+
+/** About **/
+#about {
+    clear: both;
+    background: url('../img/about-me.png');
+    background-size: cover;
+    height: 550px;
+}
+#about h3 {
+    text-align: center;
+    color: #fa0075;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    padding-top: 50px;
+}
+#about p {
+    width: 475px;
+    padding-left: 100px;
+    line-height: 27px;
+}
+/** Contact **/
+#contact {
+    background-color: #1f202b;
+    border: 1px solid #1f202b;
+    height: 400px;
+    color: whitesmoke;
+}
+#contact h3 {
+    text-align: center;
+    color: #fa0075;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+}
+/** Footer **/
+footer {
+    background-color: #1f202b;
+    border: 1px solid #1f202b;
+    color: whitesmoke;
+}
+footer p {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Anonymous Pro', monospace;
 }
 
