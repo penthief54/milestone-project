@@ -1,5 +1,24 @@
 /** #1f202b background color**/
 /** #fa0075 pink **/
+/************************************************* BASE STYLES *************************************************/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+color: #2b2b2b;
+}
+#header {
+    height: 725px;
+}
+#portfolio {
+    height: 1100px;
+}
+#about {
+    height: 600px;
+}
+#contact {
+    height: 400px;
+}
+
+/***************************************************** GRID ***************************************************/
 .full-width {
     width: 1200px;
     margin: 0 auto;
@@ -13,27 +32,30 @@
     float: left;
     
 }
-/** HEADER **/
+/********************************************************* HEADER *******************************************/
 header p {
     margin-left: 30px;
     font-size: 18px;
 }
 nav {
     float: right;
-    padding: 10px auto;
+   padding: 10px auto;
     margin-right: 10px;
-
+    
 }
 
 nav ul li{
     display: inline-block;
+    margin-right: 10px;
+    
 }
 nav ul li a {
     text-decoration: none;
-    padding-left: 80px;
+    padding-right: 25px;
     font-size: 18px;
     color: whitesmoke;
-    text-decoration: none;
+    
+   
 }
 header {
     height: 700px;
@@ -61,7 +83,7 @@ header {
   }
 
 
-/** PORTFOLIO **/
+/********************************************* PORTFOLIO *****************************************************/
 
 #portfolio h3 {
     text-align: center;
@@ -70,27 +92,55 @@ header {
     font-family: 'Source Code Pro', monospace;
     padding-top: 20px;
 }
+
 #jubilee {
     clear: both;
+    
 }
-.about {
-    clear: both;
-}
-
 #portfolio {
     background-color: #1f202b;
     border: 1px solid #1f202b; 
-}
-#portfolio p {
     color: whitesmoke;
+    clear: both;
+    margin: 0;
 }
-
-/** About **/
+#rogue img {
+    padding-left: 100px;
+}
+#rogue p {
+    width: 400px;
+    padding-left: 50px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#jubilee p {
+    width: 400px;
+    padding-left: 148px;
+    text-align: right;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#holstee img {
+    padding-left: 100px;
+}
+#holstee p {
+    width: 400px;
+    padding-left: 50px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#portfolio span {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-family: 'Raleway', sans-serif;
+}
+/*************************************************** ABOUT ************************************************/
 #about {
     clear: both;
     background: url('../img/about-me.png');
     background-size: cover;
-    height: 550px;
+    border-top: 1px solid;
 }
 #about h3 {
     text-align: center;
@@ -103,29 +153,56 @@ header {
     width: 475px;
     padding-left: 100px;
     line-height: 27px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
-/** Contact **/
+/************************************************** CONTACT **************************************/
 #contact {
     background-color: #1f202b;
     border: 1px solid #1f202b;
-    height: 400px;
     color: whitesmoke;
+    
 }
+
 #contact h3 {
     text-align: center;
     color: #fa0075;
     font-size: 40px;
     font-family: 'Source Code Pro', monospace;
+    border: 1px solid #1f202b
 }
-/** Footer **/
+
+#contact p {
+    text-align: center;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+#contact ul {
+    list-style: none;
+    
+}
+#contact ul li {
+    display: inline-block;
+    padding-right: 50px;
+    
+}
+#contact span {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+}
+/************************************************** FOOTER *************************************/
 footer {
     background-color: #1f202b;
     border: 1px solid #1f202b;
-    color: whitesmoke;
+    color: #435fdc;
 }
 footer p {
     text-align: center;
     font-size: 15px;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Merriweather', serif;
 }
+
 
