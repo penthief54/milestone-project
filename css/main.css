@@ -95,7 +95,9 @@ header {
 
 #jubilee {
     clear: both;
-    
+}
+#holstee {
+    clear: both;
 }
 #portfolio {
     background-color: #1f202b;
@@ -184,7 +186,7 @@ header {
 }
 #contact ul li {
     display: inline-block;
-    padding-right: 50px;
+    padding-left: 40px;
     
 }
 #contact span {
